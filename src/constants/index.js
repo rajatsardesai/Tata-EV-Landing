@@ -1,72 +1,87 @@
-import { facebook, instagram, shieldTick, support, truckFast, twitter } from "../assets/icons";
-import { bigShoe1, bigShoe2, bigShoe3, customer1, customer2, shoe4, shoe5, shoe6, shoe7, thumbnailShoe1, thumbnailShoe2, thumbnailShoe3 } from "../assets/images";
+import { facebook, instagram, rupees, trees, co2, twitter } from "../assets/icons";
+import { bigCar1, bigCar2, bigCar3, bigCar4, customer1, customer2, car1, car2, car3, car4 } from "../assets/images";
 
 export const navLinks = [
     { href: "#home", label: "Home" },
     { href: "#about-us", label: "About Us" },
-    { href: "#products", label: "Products" },
+    { href: "#cars", label: "Cars" },
     { href: "#contact-us", label: "Contact Us" },
 ];
 
-export const shoes = [
+export const cars = [
     {
-        thumbnail: thumbnailShoe1,
-        bigShoe: bigShoe1,
+        bigCar: bigCar1,
     },
     {
-        thumbnail: thumbnailShoe2,
-        bigShoe: bigShoe2,
+        bigCar: bigCar2,
     },
     {
-        thumbnail: thumbnailShoe3,
-        bigShoe: bigShoe3,
+        bigCar: bigCar3,
+    },
+    {
+        bigCar: bigCar4,
     },
 ];
 
 export const statistics = [
-    { value: '1k+', label: 'Brands' },
-    { value: '500+', label: 'Shops' },
+    { value: '1k+', label: 'Showrooms' },
+    { value: '500+', label: 'Service Centers' },
     { value: '250k+', label: 'Customers' },
 ];
 
-export const products = [
+export const models = [
     {
-        imgURL: shoe4,
-        name: "Nike Air Jordan-01",
-        price: "$200.20",
+        bigCar: bigCar1,
+        imgURL: car1,
+        name: "Punch",
+        price: "₹10.99 Lakh*",
+        url: "https://ev.tatamotors.com/punch/ev.html",
+        description: "Here's a new world of versatility where you take the extra mile with the Punch.ev."
     },
     {
-        imgURL: shoe5,
-        name: "Nike Air Jordan-10",
-        price: "$210.20",
+        bigCar: bigCar2,
+        imgURL: car2,
+        name: "Nexon",
+        price: "₹14.49 Lakh*",
+        url: "https://ev.tatamotors.com/nexon/ev.html",
+        description: "The all-new Nexon.ev represents a stunning leap forward in design, cabin comfort, performance, technology and safety for you and your family."
     },
     {
-        imgURL: shoe6,
-        name: "Nike Air Jordan-100",
-        price: "$220.20",
+        bigCar: bigCar3,
+        imgURL: car3,
+        name: "Tiago",
+        price: "₹7.99 Lakh*",
+        url: "https://ev.tatamotors.com/tiago/ev.html",
+        description: "If you got it, flaunt it. And when it comes to the Tiago.ev , you don't even need to try too hard."
     },
     {
-        imgURL: shoe7,
-        name: "Nike Air Jordan-001",
-        price: "$230.20",
+        bigCar: bigCar4,
+        imgURL: car4,
+        name: "Tigor",
+        price: "₹12.49 Lakh*",
+        url: "https://ev.tatamotors.com/tigor/ev.html",
+        description: "When life offers more, you take it without a second thought. And with Tigor.ev, you get more tech, more lux, and more confidence to take on the city."
     },
 ];
 
-export const services = [
+export const savings = [
     {
-        imgURL: truckFast,
-        label: "Free shipping",
-        subtext: "Enjoy seamless shopping with our complimentary shipping service."
+        imgURL: rupees,
+        eyebrow: "Minimum Fuel cost savings",
+        label: "₹122,940",
+        subtext: ""
     },
     {
-        imgURL: shieldTick,
-        label: "Secure Payment",
-        subtext: "Experience worry-free transactions with our secure payment options."
+        imgURL: co2,
+        eyebrow: "Minimum Equivalent Tailpipe CO2 Reduction",
+        label: "5.29",
+        subtext: "Million grams"
     },
     {
-        imgURL: support,
-        label: "Love to help you",
-        subtext: "Our dedicated team is here to assist you every step of the way."
+        imgURL: trees,
+        eyebrow: "Minimum Equivalent to CO2 reduction",
+        label: "245",
+        subtext: "Full grown trees"
     },
 ];
 

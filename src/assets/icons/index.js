@@ -5,11 +5,11 @@ import copyrightSign from './copyright-sign.svg'
 import facebook from './facebook.svg'
 import hamburger from './hamburger.svg'
 import instagram from './instagram.svg'
-import support from './support.svg'
-import shieldTick from './shield-tick.svg'
 import star from './star.svg'
-import truckFast from './truck-fast.svg'
 import twitter from './twitter.svg'
+import rupees from './rupees.png'
+import trees from './trees.png'
+import co2 from './co-2.png'
 
 export {
     arrowRight,
@@ -19,9 +19,9 @@ export {
     facebook,
     hamburger,
     instagram,
-    support,
-    shieldTick,
     star,
-    truckFast,
-    twitter
+    twitter,
+    rupees,
+    trees,
+    co2
 }
