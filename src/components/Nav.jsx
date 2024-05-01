@@ -1,16 +1,29 @@
 import { headerLogo } from "../assets/images";
 import { navLinks } from "../constants";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const Nav = () => {
     const [isActive, setIsActive] = useState(false);
+    const [scrollPosition, setScrollPosition] = useState(0);
 
     const toggleMenu = () => {
         setIsActive(!isActive);
     };
 
+    useEffect(() => {
+        const handleScroll = () => {
+            setScrollPosition(window.scrollY);
+        };
+
+        window.addEventListener('scroll', handleScroll);
+
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
+
     return (
-        <header className="padding-x py-4 2xl:py-8 fixed top-0 z-20 w-full bg-white">
+        <header className={`padding-x py-4 2xl:py-8 fixed top-0 z-20 w-full max-lg:bg-white transition duration-500 ease-in-out ${scrollPosition > 20 ? 'bg-white' : 'bg-transparent'}`}>
             <nav className="flex justify-between items-center max-container">
                 <a href="/">
                     <img src={headerLogo
