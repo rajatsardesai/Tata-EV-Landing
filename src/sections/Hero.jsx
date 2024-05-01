@@ -16,7 +16,7 @@ const Hero = () => {
 
         <HeroCarDetail bigCarImg={bigCarImg} />
 
-        <Button label="Book Now" iconURL={arrowRight} />
+        <Button label="Book Now" iconURL={arrowRight} redirectURL="https://ev.tatamotors.com/account/login.html" />
 
         <div className="flex justify-start items-start flex-wrap w-full mt-20 gap-16">
           {

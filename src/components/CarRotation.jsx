@@ -13,12 +13,12 @@ const CarRotation = () => {
     }, []);
 
     return (
-        <div className="relative w-full h-80 mx-auto overflow-hidden rounded-full">
+        <div className="relative w-full h-80 max-sm:h-60 mx-auto overflow-hidden">
             {
                 carRotateImgs.map((imageUrl, index) => (
                     <img
                         key={index}
-                        className={`absolute inset-0 object-cover  transition-opacity duration-0 ease-linear ${index === currentImageIndex ? 'opacity-1' : 'opacity-0'
+                        className={`absolute inset-0 object-cover  transition-opacity duration-0 ease-linear max-sm:h-40 ${index === currentImageIndex ? 'opacity-1' : 'opacity-0'
                             }`}
                         src={imageUrl}
                         alt="punch.ev 360 view"

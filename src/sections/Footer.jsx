@@ -22,13 +22,13 @@ const Footer = () => {
         </div>
 
         <div className="flex flex-1 justify-between lg:gap-10 gap-20 flex-wrap">
-          {footerLinks.map((section)=>(
+          {footerLinks.map((section) => (
             <div key={section.title}>
               <h4 className="text-white font-montserrat text-2xl leading-noemal font-medium mb-6">{section.title}</h4>
               <ul>
-                {section.links.map((link)=>(
+                {section.links.map((link) => (
                   <li key={link.name} className="mt-3 text-white-400 font-montserrat text-base leading-normal hover:text-slate-gray cursor-pointer">
-                    <a href="{link.link}">{link.name}</a>
+                    <a href={link.link} target="_blank">{link.name}</a>
                   </li>
                 ))}
               </ul>
@@ -37,14 +37,14 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="flex justify-between text-white-400 mt-24 max-sm:flex-col max-sm:items-center">
-        <div className="flex flex-1 justify-start items-center gap-2 font-montserrat cursor-pointer">
+      <div className="flex justify-between text-white-400 mt-24 max-sm:flex-col">
+        <div className="flex flex-1 justify-start items-center gap-2 font-montserrat cursor-pointer max-sm:mb-4">
           <img src={copyrightSign} alt="copy right sign" width={20} height={20} className="rounded-full m-0" />
           <span>Copyright. All rights reserved.</span>
         </div>
         <span className="text-white font-montserrat">Made with&nbsp;
-        <img src={love} alt="love sign" width={20} height={20} className="m-0 inline-block" /> using&nbsp;
-        <img src={tailwind} alt="tailwind sign" width={20} height={20} className="m-0 inline-block" />
+          <img src={love} alt="love sign" width={20} height={20} className="m-0 inline-block" /> using&nbsp;
+          <img src={tailwind} alt="tailwind sign" width={20} height={20} className="m-0 inline-block" />
         </span>
       </div>
     </footer>
