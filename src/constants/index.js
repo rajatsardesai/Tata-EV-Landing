@@ -3,9 +3,9 @@ import { bigCar1, bigCar2, bigCar3, bigCar4, customer1, customer2, car1, car2, c
 
 export const navLinks = [
     { href: "#home", label: "Home" },
-    { href: "#about-us", label: "About Us" },
-    { href: "#cars", label: "Cars" },
-    { href: "#contact-us", label: "Contact Us" },
+    { href: "#models", label: "Our Range" },
+    { href: "#digital-showroom", label: "Digital Showroom" },
+    { href: "#test-drive", label: "Test Drive" },
 ];
 
 export const cars = [
@@ -85,55 +85,100 @@ export const savings = [
     },
 ];
 
+export const carRotateImgs = [
+    "https://s7ap1.scene7.com/is/image/tatapassenger/Oxidegrey-0?$PO-1228-468-S$&fit=crop&fmt=png-alpha",
+    "https://s7ap1.scene7.com/is/image/tatapassenger/Oxidegrey-1?$PO-1228-468-S$&fit=crop&fmt=png-alpha",
+    "https://s7ap1.scene7.com/is/image/tatapassenger/Oxidegrey-2?$PO-1228-468-S$&fit=crop&fmt=png-alpha",
+    "https://s7ap1.scene7.com/is/image/tatapassenger/Oxidegrey-3?$PO-1228-468-S$&fit=crop&fmt=png-alpha",
+    "https://s7ap1.scene7.com/is/image/tatapassenger/Oxidegrey-4?$PO-1228-468-S$&fit=crop&fmt=png-alpha",
+    "https://s7ap1.scene7.com/is/image/tatapassenger/Oxidegrey-5?$PO-1228-468-S$&fit=crop&fmt=png-alpha",
+    "https://s7ap1.scene7.com/is/image/tatapassenger/Oxidegrey-6?$PO-1228-468-S$&fit=crop&fmt=png-alpha",
+    "https://s7ap1.scene7.com/is/image/tatapassenger/Oxidegrey-7?$PO-1228-468-S$&fit=crop&fmt=png-alpha",
+    "https://s7ap1.scene7.com/is/image/tatapassenger/Oxidegrey-8?$PO-1228-468-S$&fit=crop&fmt=png-alpha",
+    "https://s7ap1.scene7.com/is/image/tatapassenger/Oxidegrey-9?$PO-1228-468-S$&fit=crop&fmt=png-alpha",
+    "https://s7ap1.scene7.com/is/image/tatapassenger/Oxidegrey-10?$PO-1228-468-S$&fit=crop&fmt=png-alpha",
+    "https://s7ap1.scene7.com/is/image/tatapassenger/Oxidegrey-11?$PO-1228-468-S$&fit=crop&fmt=png-alpha",
+    "https://s7ap1.scene7.com/is/image/tatapassenger/Oxidegrey-12?$PO-1228-468-S$&fit=crop&fmt=png-alpha",
+    "https://s7ap1.scene7.com/is/image/tatapassenger/Oxidegrey-13?$PO-1228-468-S$&fit=crop&fmt=png-alpha",
+    "https://s7ap1.scene7.com/is/image/tatapassenger/Oxidegrey-14?$PO-1228-468-S$&fit=crop&fmt=png-alpha",
+    "https://s7ap1.scene7.com/is/image/tatapassenger/Oxidegrey-15?$PO-1228-468-S$&fit=crop&fmt=png-alpha",
+    "https://s7ap1.scene7.com/is/image/tatapassenger/Oxidegrey-16?$PO-1228-468-S$&fit=crop&fmt=png-alpha",
+    "https://s7ap1.scene7.com/is/image/tatapassenger/Oxidegrey-17?$PO-1228-468-S$&fit=crop&fmt=png-alpha",
+    "https://s7ap1.scene7.com/is/image/tatapassenger/Oxidegrey-18?$PO-1228-468-S$&fit=crop&fmt=png-alpha",
+    "https://s7ap1.scene7.com/is/image/tatapassenger/Oxidegrey-19?$PO-1228-468-S$&fit=crop&fmt=png-alpha",
+    "https://s7ap1.scene7.com/is/image/tatapassenger/Oxidegrey-20?$PO-1228-468-S$&fit=crop&fmt=png-alpha",
+    "https://s7ap1.scene7.com/is/image/tatapassenger/Oxidegrey-21?$PO-1228-468-S$&fit=crop&fmt=png-alpha",
+    "https://s7ap1.scene7.com/is/image/tatapassenger/Oxidegrey-22?$PO-1228-468-S$&fit=crop&fmt=png-alpha",
+    "https://s7ap1.scene7.com/is/image/tatapassenger/Oxidegrey-23?$PO-1228-468-S$&fit=crop&fmt=png-alpha",
+    "https://s7ap1.scene7.com/is/image/tatapassenger/Oxidegrey-24?$PO-1228-468-S$&fit=crop&fmt=png-alpha",
+    "https://s7ap1.scene7.com/is/image/tatapassenger/Oxidegrey-25?$PO-1228-468-S$&fit=crop&fmt=png-alpha",
+    "https://s7ap1.scene7.com/is/image/tatapassenger/Oxidegrey-26?$PO-1228-468-S$&fit=crop&fmt=png-alpha",
+    "https://s7ap1.scene7.com/is/image/tatapassenger/Oxidegrey-27?$PO-1228-468-S$&fit=crop&fmt=png-alpha",
+    "https://s7ap1.scene7.com/is/image/tatapassenger/Oxidegrey-28?$PO-1228-468-S$&fit=crop&fmt=png-alpha",
+    "https://s7ap1.scene7.com/is/image/tatapassenger/Oxidegrey-29?$PO-1228-468-S$&fit=crop&fmt=png-alpha",
+    "https://s7ap1.scene7.com/is/image/tatapassenger/Oxidegrey-30?$PO-1228-468-S$&fit=crop&fmt=png-alpha",
+    "https://s7ap1.scene7.com/is/image/tatapassenger/Oxidegrey-31?$PO-1228-468-S$&fit=crop&fmt=png-alpha",
+    "https://s7ap1.scene7.com/is/image/tatapassenger/Oxidegrey-32?$PO-1228-468-S$&fit=crop&fmt=png-alpha",
+    "https://s7ap1.scene7.com/is/image/tatapassenger/Oxidegrey-33?$PO-1228-468-S$&fit=crop&fmt=png-alpha",
+    "https://s7ap1.scene7.com/is/image/tatapassenger/Oxidegrey-34?$PO-1228-468-S$&fit=crop&fmt=png-alpha",
+    "https://s7ap1.scene7.com/is/image/tatapassenger/Oxidegrey-35?$PO-1228-468-S$&fit=crop&fmt=png-alpha",
+];
+
 export const reviews = [
     {
         imgURL: customer1,
         customerName: 'Morich Brown',
-        rating: 4.5,
-        feedback: "The attention to detail and the quality of the product exceeded my expectations. Highly recommended!"
+        feedback: "Owning a Tiago.ev is not just about driving, it's about making a statement for sustainable future."
     },
     {
         imgURL: customer2,
-        customerName: 'Lota Mongeskar',
-        rating: 4.5,
-        feedback: "The product not only met but exceeded my expectations. I'll definitely be a returning customer!"
+        customerName: 'Emily Munich',
+        feedback: "Our TATA.ev has become the heart of our family, bringing us close together while enjoying adventures and long-drives in an eco-friendly way."
     }
 ];
 
 
 export const footerLinks = [
     {
-        title: "Products",
+        title: "Our Range",
         links: [
-            { name: "Air Force 1", link: "/" },
-            { name: "Air Max 1", link: "/" },
-            { name: "Air Jordan 1", link: "/" },
-            { name: "Air Force 2", link: "/" },
-            { name: "Nike Waffle Racer", link: "/" },
-            { name: "Nike Cortez", link: "/" },
+            { name: "Punch.ev", link: "https://ev.tatamotors.com/punch/ev.html" },
+            { name: "Nexon.ev", link: "https://ev.tatamotors.com/nexon/ev.html" },
+            { name: "Tiago.ev", link: "https://ev.tatamotors.com/tiago/ev.html" },
+            { name: "Tigor.ev", link: "https://ev.tatamotors.com/tigor/ev.html" },
         ],
     },
     {
-        title: "Help",
+        title: "Quick Links",
         links: [
-            { name: "About us", link: "/" },
-            { name: "FAQs", link: "/" },
-            { name: "How it works", link: "/" },
-            { name: "Privacy policy", link: "/" },
-            { name: "Payment policy", link: "/" },
+            { name: "Contact Us", link: "https://ev.tatamotors.com/support.html" },
+            { name: "Privacy policy", link: "https://ev.tatamotors.com/privacy-policy.html" },
+            { name: "Terms & Conditions", link: "https://ev.tatamotors.com/terms-conditions.html" },
         ],
     },
     {
         title: "Get in touch",
         links: [
-            { name: "customer@nike.com", link: "mailto:customer@nike.com" },
-            { name: "+92554862354", link: "tel:+92554862354" },
+            { name: "customercare@tatamotors.com", link: "mailto:customercare@tatamotors.com" },
+            { name: "1800 209 8282", link: "tel:1800 209 8282" },
         ],
     },
 ];
 
 export const socialMedia = [
-    { src: facebook, alt: "facebook logo" },
-    { src: twitter, alt: "twitter logo" },
-    { src: instagram, alt: "instagram logo" },
+    {
+        src: facebook,
+        alt: "facebook logo",
+        socialURL: "https://www.facebook.com/Tata.ev"
+    },
+    {
+        src: twitter,
+        alt: "twitter logo",
+        socialURL: "https://twitter.com/Tataev"
+    },
+    {
+        src: instagram,
+        alt: "instagram logo",
+        socialURL: "https://www.instagram.com/tata.evofficial/"
+    },
 ];

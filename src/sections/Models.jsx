@@ -1,9 +1,9 @@
-import ModelCard from "../components/ModelCard";
+import { ModelCard } from "../components";
 import { models } from "../constants"
 
 const Models = () => {
   return (
-    <section id="products" className="max-container max-smLmt-12">
+    <section id="models" className="max-container max-smLmt-12">
       <div className="flex flex-col justify-start gap-5">
         <h2 className="text-4xl font-palanquin font-bold">Our Range</h2>
         <p className="lg:max-w-lg mt-2 font-montserrat text-slate-gray">Tata's electric vehicle lineup combines innovative, aesthetics and cutting-edge performance, Tata EV models lead the charge towards a greener future on the roads.</p>

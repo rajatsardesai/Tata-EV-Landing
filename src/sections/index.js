@@ -2,9 +2,9 @@ import Hero from "./Hero";
 import Models from "./Models";
 import Vision from "./Vision";
 import Savings from "./Savings";
-import Charging from "./Charging";
+import DigitalShowroom from "./DigitalShowroom";
 import CustomerReviews from "./CustomerReviews";
-import Subscribe from "./Subscribe";
+import TestDrive from "./TestDrive";
 import Footer from "./Footer";
 
 export {
@@ -12,8 +12,8 @@ export {
     Models,
     Vision,
     Savings,
-    Charging,
+    DigitalShowroom,
     CustomerReviews,
-    Subscribe,
+    TestDrive,
     Footer
 }

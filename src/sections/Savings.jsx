@@ -1,4 +1,4 @@
-import SavingsCard from "../components/ServiceCard"
+import { SavingsCard } from "../components"
 import { savings } from "../constants"
 
 const Savings = () => {

@@ -1,10 +1,10 @@
-import Button from "../components/Button"
+import { Button } from "../components"
 import { arrowRight } from "../assets/icons"
 import { cars, statistics } from "../constants"
 import { bigCar1 } from "../assets/images"
-import CarCard from "../components/CarCard"
+import { CarCard } from "../components"
 import { useState } from "react"
-import HeroCarDetail from "../components/HeroCarDetail"
+import { HeroCarDetail } from "../components"
 
 const Hero = () => {
   const [bigCarImg, setBigCarImg] = useState(bigCar1);
@@ -14,7 +14,7 @@ const Hero = () => {
       <div className="relative xl:w-2/5 flex flex-col justify-center items-start w-full max-xl:padding-x pt-40">
         <p className="text-xl font-montserrat text-yellow-green">The All New TATA</p>
 
-        <HeroCarDetail bigCarImg={bigCarImg}/>
+        <HeroCarDetail bigCarImg={bigCarImg} />
 
         <Button label="Book Now" iconURL={arrowRight} />
 
